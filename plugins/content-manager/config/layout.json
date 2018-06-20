@@ -1,1 +1,45 @@
-{}
+{
+  "page": {
+    "attributes": {
+      "welcome": {
+        "appearance": ""
+      },
+      "text": {
+        "appearance": ""
+      }
+    }
+  },
+  "doc": {
+    "attributes": {
+      "welcome": {
+        "appearance": ""
+      },
+      "text": {
+        "appearance": ""
+      },
+      "maintext": {
+        "appearance": ""
+      }
+    }
+  },
+  "test": {
+    "attributes": {
+      "test": {
+        "appearance": ""
+      },
+      "testbool": {
+        "appearance": ""
+      },
+      "numbertest": {
+        "appearance": ""
+      }
+    }
+  },
+  "previewBox": {
+    "attributes": {
+      "f": {
+        "appearance": ""
+      }
+    }
+  }
+}

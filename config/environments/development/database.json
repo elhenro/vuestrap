@@ -12,8 +12,19 @@
         "password": ""
       },
       "options": {
-        "authenticationDatabase": "auth",
+        "authenticationDatabase": "",
         "ssl": false
+      }
+    },
+    "test": {
+      "connector": "strapi-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "127.0.0.1",
+        "port": 27077,
+        "database": "strapi",
+        "username": "test",
+        "password": "test"
       }
     }
   }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/previewbox",
+      "handler": "Previewbox.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/previewbox/count",
+      "handler": "Previewbox.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/previewbox/:_id",
+      "handler": "Previewbox.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/previewbox",
+      "handler": "Previewbox.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/previewbox/:_id",
+      "handler": "Previewbox.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/previewbox/:_id",
+      "handler": "Previewbox.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
